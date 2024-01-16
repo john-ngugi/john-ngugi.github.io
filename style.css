@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/metal\ cast\ hero.jpg);
+    background-size: cover;
+}
+
+.title-page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.title-page h1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btns-row {
+    display: inline-flex;
+}
+
+.question-choose-us {
+    text-decoration: underline;
+    color: #5DB9DE;
+    text-decoration-color: #5DB9DE;
+    text-decoration-thickness: 3px;
+}
+
+.about {
+    width: 100vw;
+    background-color: #F7F7F7;
+}
+
+.our-values {
+    background-size: cover;
+    background-image: linear-gradient(rgba(56, 12, 178, 0.8), rgba(56, 12, 178, 0.6)), url(./images/alchemyrefiner_alchemymagic_3_32a40d94-7201-401f-8e50-8bc3f9dfb967_0.jpg);
+}
+
+.our-values h2 {
+    color: #5DB9DE;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #5DB9DE;
+    text-decoration-thickness: 3px;
+}
+
+.transparent-card {
+    background-color: transparent;
+    border: none;
+}
+
+.values-card .card-body {
+    color: white;
+}
+
+.values-card .card-title {
+    color: #5DB9DE;
+}
+
+.values-card p {
+    color: white;
+    font-weight: 400;
+}
+
+.btn-main {
+    background-color: #7C5DDE;
+    color: white;
+}
+
+.btn-main:hover {
+    background-color: white;
+    color: #7C5DDE;
+}
+
+p,
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(95, 93, 93);
+    font-size: 17px;
+}
+
+#navbarNav {
+    float: right;
+    margin-left: 35%;
+}
+
+#services-text {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    color: #7C5DDE;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leading-manufacturers-img {
+    margin-top: 30%;
+    background-size: cover;
+    height: 400px;
+    background-image: url(./images/furnace2.jpg);
+}
+
+.quality-that-lasts {
+    background-size: cover;
+    height: 400px;
+    background-image: url(./images/alchemyrefiner_alchemymagic_0_57235ada-b3e4-436e-9f3a-73bc9f387df9_0.jpg);
+}
+
+.machinery-parts {
+    background-size: cover;
+    height: 400px;
+    background-image: url(./images/furnace3.jpg);
+}
+
+.small-machinery {
+    background-size: cover;
+    height: 400px;
+    background-image: url(./images/machine\ small.jpg);
+}
+
+.container-break {
+    background-color: #F7F7F7;
+}
+
+nav {
+    background-color: #0D6EFD;
+}
+
+.nav-link {
+    color: white;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #1e0474;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.furnace-cards {
+    background-color: blue;
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    ;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-right {
+    -webkit-animation: slide-right 0.5s;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(100px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.footer {
+    background-color: #0D6EFD;
+    color: #ffff;
+    padding: 20px 0;
+}
+
+.card-service {
+    background-color: #7C5DDE;
+}
+
+@media screen and (max-width: 768px) {
+    .header .container h1 {
+        font-size: 40px;
+    }
+    p,
+    li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        /* color: white; */
+        font-size: 15px;
+    }
+    .our-values p {
+        font-size: 12px;
+    }
+    .leading-manufacturers-img {
+        margin-top: 0px;
+    }
+    #navbarNav {
+        /* display: flex; */
+        float: right;
+        margin-left: 0%;
+    }
+}
