@@ -104,6 +104,13 @@ h2 {
     text-align: center;
 }
 
+.h2-choose-us {
+    font-weight: 600;
+    color: #7C5DDE;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+}
+
 h3 {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
