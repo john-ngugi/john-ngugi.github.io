@@ -6,7 +6,7 @@ body {
 .header {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/metal\ cast\ hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/metal\ cast\ hero.jpg);
     background-size: cover;
 }
 
@@ -25,13 +25,15 @@ body {
 
 .btns-row {
     display: inline-flex;
+    width: 100%;
 }
 
 .question-choose-us {
     text-decoration: underline;
-    color: #5DB9DE;
-    text-decoration-color: #5DB9DE;
+    color: #FF4500;
+    text-decoration-color: #FF4500;
     text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
 }
 
 .about {
@@ -45,10 +47,10 @@ body {
 }
 
 .our-values h2 {
-    color: #5DB9DE;
+    color: #DAA520;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
-    text-decoration-color: #5DB9DE;
+    text-decoration-color: #DAA520;
     text-decoration-thickness: 3px;
 }
 
@@ -62,7 +64,7 @@ body {
 }
 
 .values-card .card-title {
-    color: #5DB9DE;
+    color: #DAA520;
 }
 
 .values-card p {
@@ -71,7 +73,7 @@ body {
 }
 
 .btn-main {
-    background-color: #7C5DDE;
+    background-color: #FF4500;
     color: white;
 }
 
@@ -93,20 +95,25 @@ li {
     margin-left: 35%;
 }
 
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 #services-text {
     text-align: center;
 }
 
 h2 {
     font-weight: 600;
-    color: #7C5DDE;
+    color: #4682B4;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
 .h2-choose-us {
     font-weight: 600;
-    color: #7C5DDE;
+    color: #4682B4;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
 }
@@ -146,7 +153,7 @@ h3 {
 }
 
 nav {
-    background-color: #0D6EFD;
+    background-color: #555555;
 }
 
 .nav-link {
@@ -165,7 +172,7 @@ nav {
 }
 
 .furnace-cards {
-    background-color: blue;
+    background-color: #FF4500;
     -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     ;
     animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -188,13 +195,21 @@ nav {
 }
 
 .footer {
-    background-color: #0D6EFD;
+    background-color: #555555;
     color: #ffff;
     padding: 20px 0;
 }
 
 .card-service {
-    background-color: #7C5DDE;
+    background-color: #FF4500;
+}
+
+.commitment-div {
+    color: #FF4500;
+    text-decoration: underline;
+    text-decoration-color: #FF4500;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
 }
 
 @media screen and (max-width: 768px) {
